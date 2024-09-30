@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Tela De Login</h2>
+            <h2 id="mensagem">AAAAAAAAAAAAAAAAAAAAH EU VOU MAMAR</h2>
+            <p id="mensagem"> Teste de Laércio</p>
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Nome</label>
+                <span class="error-message" id="name-error">Nome é obrigatório</span>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">E-mail</label>
+                <span class="error-message" id="email-error">E-mail inválido</span>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Senha</label>
+                <span class="error-message" id="password-error">Senha é obrigatória (mínimo 6 caracteres)</span>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="4" required></textarea>
+                <label for="message">Mensagem</label>
+                <span class="error-message" id="message-error">Mensagem é obrigatória</span>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
